@@ -7,7 +7,7 @@
       "@infra/*": ["apps/backend/src/infra/*"],
     }
   },
-  "include": ["**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "include": ["**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "../../codegen.ts"],
   "exclude": ["node_modules"]
 }
 

@@ -1,4 +1,4 @@
-import server from "@infra/apollo/server";
+import server from "@infra/graphql/apollo";
 import sequelize from "@infra/sequelize";
 
 // Sync the models with the database

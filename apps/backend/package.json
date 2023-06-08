@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "nodemon --exec ts-node --transpile-only --require tsconfig-paths/register src/bootstrap.ts",
-    "migrate:generate": "sequelize-cli migration:generate --name"
+    "generate": "graphql-codegen"
   },
   "dependencies": {
     "@graphql-tools/load-files": "^7.0.0",
@@ -20,6 +20,10 @@
     "uuid": "^9.0.0"
   },
   "devDependencies": {
+    "@graphql-codegen/cli": "^4.0.1",
+    "@graphql-codegen/graphql-modules-preset": "^4.0.0",
+    "@graphql-codegen/typescript": "^4.0.0",
+    "@graphql-codegen/typescript-resolvers": "^4.0.0",
     "@types/node": "^20.2.5",
     "@types/uuid": "^9.0.2",
     "@types/validator": "^13.7.17",
