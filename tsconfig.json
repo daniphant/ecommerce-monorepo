@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS",
+    "target": "ES2019",
+    "moduleResolution": "node",
+    "forceConsistentCasingInFileNames": true,
+    "experimentalDecorators": true,
+    "checkJs": false,
+    "baseUrl": ".",
+    "rootDir": ".",
+    "strictNullChecks": true,
+    "paths": {
+      "@backend/*": ["apps/backend"],
+      "@frontend/*": ["apps/frontend"],
+      "apps/*": ["apps/*"]
+    },
+    "noEmit": true,
+    "types": ["node"]
+  },
+  "exclude": ["**/node_modules/*", "**/build/*"]
+}

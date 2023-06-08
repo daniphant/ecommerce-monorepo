@@ -1,0 +1,13 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "composite": true,
+    "paths": {
+      "@domain/*": ["apps/backend/src/domain/*"],
+      "@infra/*": ["apps/backend/src/infra/*"],
+    }
+  },
+  "include": ["**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "exclude": ["node_modules"]
+}
+
