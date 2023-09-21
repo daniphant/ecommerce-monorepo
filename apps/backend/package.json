@@ -10,7 +10,7 @@
   "dependencies": {
     "@graphql-tools/load-files": "^7.0.0",
     "apollo-server": "^3.12.0",
-    "graphql": "^16.6.0",
+    "graphql": "^16.8.1",
     "graphql-modules": "^2.1.2",
     "graphql-tools": "^9.0.0",
     "reflect-metadata": "^0.1.13",
